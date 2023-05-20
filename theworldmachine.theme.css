@@ -8,20 +8,21 @@
  * @BDEditor OperaGX Theme
 */
 
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16:wght@100;300;400;500;700&display=swap');
 @import url('https://l-ratio.github.io/OperaGXTheme/release/main.css');
 
 :root {
   --background: url('https://i.redd.it/2f6v1iold8w51.png');
-  --background-behind-appmount: 8, 5, 14;
-  --background-accent-color-1: 77,0,116,1;
-  --accent-color-1: 91,0,159;
-  --accent-color-2: 98,0,148;
+  --background-behind-appmount: 0,0,0,1;
+  --background-accent-color-1: 99,0,193,1;
+  --accent-color-1: 98,0,142;
+  --accent-color-2: 91,0,216;
   --border-brightness: 1;
   --dark-background-color: 18, 16, 25 ;
   --darker-background-color: 8, 5, 14;
-  --wintitlebar-transparency: 0.7;
-  --header-transparency: 0.5;
-  --serverlist-transparency: 0.5;
+  --wintitlebar-transparency: 0;
+  --header-transparency: 0;
+  --serverlist-transparency: 0;
   --channels-transparency: 0.5;
   --chat-transparency: 0.5;
   --memberlist-transparency: 0.5;
@@ -31,8 +32,8 @@
   --channels-background-blur: 0px;
   --chat-background-blur: 0px;
   --memberlist-background-blur: 0px;
-  --customFont: Chakra Petch;
-  --codeBlocksCustomFont: Chakra Petch;
+  --customFont: DotGothic16;
+  --codeBlocksCustomFont: DotGothic16;
   --fullwhite-font: 250, 253, 255;
   --normal-font: 201, 203, 206;
   --normal-hover-font: 238, 239, 240;
